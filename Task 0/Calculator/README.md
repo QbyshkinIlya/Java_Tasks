@@ -1,6 +1,6 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №0
 Чаевые в размере 3$ <br>
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/3%25.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/3%25.png) ![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/9%25.png)
 
 Чаевые в размере 9$ <br>
 ![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/9%25.png)
