@@ -1,3 +1,4 @@
+# ПРАКТИЧЕСКАЯ РАБОТА №6
 Программа: <br>
 ![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%206/Prototype/IMG/img.png)
 
