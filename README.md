@@ -1,7 +1,7 @@
 # Java Tasks
 Java Tasks <br>
 0.[Делегирование](https://github.com/Je1rei/Java-Tasks/tree/main/Task%200/Calculator)<br>
-1.[Абстрактный суперкласс](https://github.com/Je1rei/Java-Tasks/tree/main/Task%201/AbstractSuperclass)готово <br> 
+1.[Абстрактный суперкласс](https://github.com/Je1rei/Java-Tasks/tree/main/Task%201/AbstractSuperclass)<br> готово 
 2.[Фабричный метод]()<br>
 3.[Хранитель]()<br>
 4.[Итератор]()<br>
