@@ -1,5 +1,5 @@
 Программа: <br>
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%205/Builder/img.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%207/Observer/src/main/resources/img.png)
 
 В данной программе реализован паттерн проектирования "Наблюдатель" (Observer) и паттерн "Итератор" (Iterator) для синхронизации трех различных визуальных компонентов с сервером локального времени.
 
