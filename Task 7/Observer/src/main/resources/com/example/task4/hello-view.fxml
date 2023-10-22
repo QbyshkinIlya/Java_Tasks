@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="658.0" prefWidth="1081.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task4.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <VBox fx:id="boxtext" prefHeight="52.0" prefWidth="1041.0" />
+      <HBox prefHeight="404.0" prefWidth="1041.0">
+         <children>
+            <Pane fx:id="pane_SW" prefHeight="343.0" prefWidth="600.0" />
+            <Pane fx:id="pane_SI" prefHeight="100.0" prefWidth="445.0" />
+         </children>
+      </HBox>
+      <ImageView fx:id="pleer" fitHeight="3.0" fitWidth="595.0" pickOnBounds="true" preserveRatio="true" />
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="373.0">
+               <children>
+                  <Button fx:id="start" mnemonicParsing="false" onAction="#start" text="Запуск слайд-шоу">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#onStop" text="Остановка слайд-шоу">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets left="35.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="507.0">
+               <HBox.margin>
+                  <Insets left="300.0" />
+               </HBox.margin>
+               <children>
+                  <Button fx:id="taimer" mnemonicParsing="false" onAction="#startTaimer" text="Запуск таймера">
+                     <HBox.margin>
+                        <Insets left="170.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
