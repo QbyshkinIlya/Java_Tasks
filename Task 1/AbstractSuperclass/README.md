@@ -1,15 +1,15 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №1
 Вывод треугольника <br>
-![ОКНО ПРОГРАММЫ](IMG/Triug.PNG)
+![ОКНО ПРОГРАММЫ](https://github.com/Je1rei/Java-Tasks/blob/main/Task%201/AbstractSuperclass/IMG/Triug.png)
 
 Вывод линии <br>
-![ОКНО ПРОГРАММЫ](IMG/Line.PNG)
+![ОКНО ПРОГРАММЫ](https://github.com/Je1rei/Java-Tasks/blob/main/Task%201/AbstractSuperclass/IMG/Line.png)
 
 Вывод квадрата <br>
-![ОКНО ПРОГРАММЫ](IMG/Square.PNG)
+![ОКНО ПРОГРАММЫ](https://github.com/Je1rei/Java-Tasks/blob/main/Task%201/AbstractSuperclass/IMG/Square.png)
 
 Вывод пятиугольника <br>
-![ОКНО ПРОГРАММЫ](IMG/5gon.PNG)
+![ОКНО ПРОГРАММЫ](https://github.com/Je1rei/Java-Tasks/blob/main/Task%201/AbstractSuperclass/IMG/5gon.png)
 ## В ходе практической работы были реализованны следующие пункты:
 - Абстрактный супер класс Shapes
 - - Абстрактный метод Draw, класса Shapes
