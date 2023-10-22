@@ -1,6 +1,6 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №5
 Программа: <br>
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/3%25.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%205/Builder/IMG/img.png)
 
 ## В ходе выполнения практической работы была создана программа для отображения индикатора выбранного процесса с использованием паттерна Строитель (Builder). Вот, что было реализовано:
 
