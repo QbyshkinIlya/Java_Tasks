@@ -1,3 +1,4 @@
+# ПРАКТИЧЕСКАЯ РАБОТА №7
 Программа: <br>
 ![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%207/Observer/src/main/resources/img.png)
 
