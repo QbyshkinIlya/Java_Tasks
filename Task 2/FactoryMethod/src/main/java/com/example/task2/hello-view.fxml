@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="447.0" prefWidth="453.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task2.HelloController">
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <AnchorPane prefHeight="514.0" prefWidth="413.0">
+        <children>
+            <Label fx:id="task2" layoutX="146.0" layoutY="6.0" text="Выберите одну фигуру"/>
+            <Canvas fx:id="my_canvas" height="310.0" layoutX="17.0" layoutY="23.0" width="379.0"/>
+        </children>
+    </AnchorPane>
+    <HBox prefHeight="55.0" prefWidth="413.0">
+        <children>
+            <ColorPicker fx:id="colPick"/>
+            <TextField fx:id="fieldKey" onKeyReleased="#drawKey">
+                <HBox.margin>
+                    <Insets left="100.0"/>
+                </HBox.margin>
+            </TextField>
+        </children>
+    </HBox>
+
+</VBox>
