@@ -37,7 +37,7 @@ public class HelloController implements Initializable {
 
     private void addChoiceBox() {
         list.add(3.0);
-        list.add(10.0);
+        list.add(9.0);
         list.add(15.0);
 
         choiceBox.getItems().addAll(list);
