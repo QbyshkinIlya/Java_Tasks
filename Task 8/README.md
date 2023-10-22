@@ -1,9 +1,9 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №8
 Реализация программы: <br>
-![ОКНО]() 
-![ОКНО]() 
-![ОКНО]() 
-![ОКНО]()
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/IMG/star.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/IMG/Presents.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/IMG/Girlands.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/IMG/All.png)
 
 Паттерн "Декоратор" (Decorator):
 Программа реализует паттерн "Декоратор", который позволяет добавлять дополнительное поведение или функциональность к объектам без изменения их основной структуры. 
