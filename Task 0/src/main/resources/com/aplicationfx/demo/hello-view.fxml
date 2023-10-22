@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?language javascript?>
+
+<!--
+    <Button fx:id = "mainButton" onAction="btnClicktestFXscript()"
+    ></Button>
+    <fx:script>
+        function btnClicktestFXscript(){ mainButton.setText("Click"); }
+    </fx:script>
+-->
+
+<GridPane alignment="CENTER" hgap="5" prefHeight="240.0" prefWidth="240.0" styleClass="root" vgap="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aplicationfx.demo.HelloController">
+
+    <padding>
+        <Insets bottom="0" left="20.0" right="20.0" top="0" />
+    </padding>
+
+    <Label prefHeight="18.0" prefWidth="87.0" text="Введите число" textAlignment="JUSTIFY" GridPane.columnIndex="0" GridPane.rowIndex="0">
+        <opaqueInsets>
+            <Insets />
+        </opaqueInsets>
+    </Label>
+    <TextField fx:id="textField1" prefHeight="26.0" prefWidth="418.0" GridPane.columnIndex="0" GridPane.columnSpan="4" GridPane.rowIndex="1" />
+
+    <Label prefHeight="18.0" prefWidth="87.0" text="Результат" textAlignment="JUSTIFY" GridPane.columnIndex="0" GridPane.rowIndex="2">
+        <opaqueInsets>
+            <Insets />
+        </opaqueInsets>
+    </Label>
+    <TextField fx:id="textField2" GridPane.columnIndex="0" GridPane.columnSpan="4" GridPane.rowIndex="3" />
+
+    <ChoiceBox fx:id="choiceBox" prefWidth="50.0" scaleX="1.0" GridPane.columnIndex="0" GridPane.rowIndex="4">
+        <cursor>
+            <Cursor fx:constant="HAND" />
+        </cursor>
+    </ChoiceBox>
+    <Button maxWidth="100.0" onAction="#onHelloButtonClick" text="Start" GridPane.columnIndex="3" GridPane.rowIndex="4">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor>
+    </Button>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+
+</GridPane>
