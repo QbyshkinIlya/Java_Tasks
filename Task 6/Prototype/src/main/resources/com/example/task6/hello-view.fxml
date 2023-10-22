@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<VBox alignment="CENTER" prefHeight="576.0" prefWidth="613.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task6.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: #808080; -fx-background-color: #cccccc;">
+      <children>
+         <AnchorPane focusTraversable="true" prefHeight="157.0" prefWidth="264.0">
+            <children>
+               <ListView fx:id="ListView" accessibleRole="LIST_ITEM" focusTraversable="false" prefHeight="375.0" prefWidth="125.0">
+                  <opaqueInsets>
+                     <Insets />
+                  </opaqueInsets>
+               </ListView>
+            </children>
+            <opaqueInsets>
+               <Insets top="100.0" />
+            </opaqueInsets>
+         </AnchorPane>
+         <VBox prefHeight="442.0" prefWidth="627.0">
+            <children>
+                <Canvas fx:id="my_canvas" height="374.0" onMouseClicked="#drawShape" width="899.0">
+                  <VBox.margin>
+                     <Insets left="10.0" />
+                  </VBox.margin>
+               </Canvas>
+            </children>
+         </VBox>
+      </children>
+   </HBox>
+   <Button mnemonicParsing="false" onAction="#cleanCan" text="Очистить" />
+   <HBox prefHeight="29.0" prefWidth="1174.0">
+      <children>
+         <Label text="Выберите цвет фигруы">
+            <HBox.margin>
+               <Insets right="10.0" top="3.0" />
+            </HBox.margin>
+         </Label>
+          <ColorPicker fx:id="colPick">
+            <value>
+               <Color red="1.0" />
+            </value>
+            <HBox.margin>
+               <Insets right="20.0" />
+            </HBox.margin></ColorPicker>
+         <Label text="Выберите цвет контура фигуры">
+            <HBox.margin>
+               <Insets right="10.0" top="3.0" />
+            </HBox.margin>
+         </Label>
+         <ColorPicker fx:id="colPicBor">
+            <HBox.margin>
+               <Insets right="20.0" />
+            </HBox.margin>
+            <value>
+               <Color blue="1.0" />
+            </value>
+         </ColorPicker>
+         <Label text="Укажите толщину линии или контура фигуры">
+            <HBox.margin>
+               <Insets right="10.0" top="3.0" />
+            </HBox.margin>
+         </Label>
+         <TextField fx:id="bordText" text="1" />
+      </children>
+      <VBox.margin>
+         <Insets top="20.0" />
+      </VBox.margin>
+   </HBox>
+
+</VBox>
