@@ -1,12 +1,12 @@
-# ПРАКТИЧЕСКАЯ РАБОТА №1
+# ПРАКТИЧЕСКАЯ РАБОТА №0
 Чаевые в размере 3$ <br>
-[ОКНО ПРОГРАММЫ](https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/3%25.png)
+(https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/3%25.png)
 
 Чаевые в размере 9$ <br>
-[ОКНО ПРОГРАММЫ](https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/9%25.png)
+(https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/9%25.png)
 
 Чаевые в размере 15$ <br>
-![ОКНО ПРОГРАММЫ](https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/15%25.png)
+(https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/15%25.png)
 
 ## В ходе выполнения практической работы была создана программа для расчета чаевых в зависимости от итоговой суммы чека и выбора процента чаевых. Вот, что было реализовано:
 
