@@ -1,6 +1,6 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №4
 Итератор: <br>
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/3%25.png) ![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/9%25.png) ![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%200/Calculator/IMG/15%25.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%204/Iterator/IMG/Screen1.png) ![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%204/Iterator/IMG/Screen2.png) ![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%204/Iterator/IMG/Screen3.png)
 
 ## В ходе выполнения практической работы была создана программа для просмотра изображений в виде слайд-шоу. Вот, что было реализовано:
 
