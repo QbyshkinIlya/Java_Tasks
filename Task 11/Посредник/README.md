@@ -1,8 +1,8 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №11
 Реализация программы: <br>
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/IMG/star.png) 
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/IMG/Presents.png) 
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/IMG/Girlands.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2011/Посредник/IMG/img.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2011/Посредник/IMG/img1.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2011/Посредник/IMG/img2.png)
 
 - HelloController:
 - - Инициализирует список выбора (ChoiceBox) с возможными ролями: "Студент", "Преподаватель", "Наблюдатель".
