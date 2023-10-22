@@ -1,4 +1,4 @@
-# ПРАКТИЧЕСКАЯ РАБОТА №1
+# ПРАКТИЧЕСКАЯ РАБОТА №2
 Вывод линии <br>
 ![ОКНО ПРОГРАММЫ](https://github.com/Je1rei/Java-Tasks/blob/main/Task%202/FactoryMethod/IMG/1.png)
 
