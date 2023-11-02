@@ -16,6 +16,6 @@
 --12.[!!Одиночка]()<br>
 --13.[!!Компоновщик]()<br>
 14.[Цепочка обязанностей](https://github.com/Je1rei/Java-Tasks/tree/main/Task%2014/Chain%20of%20Responsibility)<br>
---8A.[!!DAO]()<br>
+--8A.[!!DAO](https://github.com/Je1rei/Java-Tasks/tree/main/Task8A/DAO)<br>
 --16.[!!Command]()<br>
 --17.[!!Поставщик - Потребитель]()<br>
