@@ -1,8 +1,9 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №8A DAO
-![ОКНО]()
-![ОКНО]()
-![ОКНО]()
-![ОКНО]()
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task8A/DAO/src/IMG/img.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task8A/DAO/src/IMG/img_1.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task8A/DAO/src/IMG/img_2.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task8A/DAO/src/IMG/img_3.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task8A/DAO/src/IMG/img_4.png)
 
 Приложение с реализацией паттерна DAO.
 
