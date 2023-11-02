@@ -13,15 +13,15 @@
       <Pane fx:id="paneMain" disable="true" layoutX="15.0" layoutY="14.0" prefHeight="220.0" prefWidth="531.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 15;">
          <children>
             <Canvas fx:id="myCanvas" height="170.0" layoutX="4.0" layoutY="-1.0" width="531.0" />
-            <ImageView fx:id="imgView1" fitHeight="120.0" fitWidth="120.0" layoutX="14.0" layoutY="14.0" onMouseExited="#MouseOff1" onMouseMoved="#MouseHover1" onMouseClicked="#OnMouseClickImg" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgView1" fitHeight="120.0" fitWidth="120.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#OnMouseClickImg" onMouseExited="#MouseOff1" onMouseMoved="#MouseHover1" pickOnBounds="true" preserveRatio="true">
                <cursor>
                   <Cursor fx:constant="CLOSED_HAND" />
                </cursor></ImageView>
-            <ImageView fx:id="imgView2" fitHeight="120.0" fitWidth="120.0" layoutX="210.0" layoutY="14.0" onMouseExited="#MouseOff2" onMouseMoved="#MouseHover2" onMouseClicked="#OnMouseClickImg" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgView2" fitHeight="120.0" fitWidth="120.0" layoutX="210.0" layoutY="14.0" onMouseClicked="#OnMouseClickImg" onMouseExited="#MouseOff2" onMouseMoved="#MouseHover2" pickOnBounds="true" preserveRatio="true">
                <cursor>
                   <Cursor fx:constant="OPEN_HAND" />
                </cursor></ImageView>
-            <ImageView fx:id="imgView3" fitHeight="120.0" fitWidth="120.0" layoutX="397.0" layoutY="14.0" onMouseExited="#MouseOff3" onMouseMoved="#MouseHover3" onMouseClicked="#OnMouseClickImg" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgView3" fitHeight="120.0" fitWidth="120.0" layoutX="397.0" layoutY="14.0" onMouseClicked="#OnMouseClickImg" onMouseExited="#MouseOff3" onMouseMoved="#MouseHover3" pickOnBounds="true" preserveRatio="true">
                <cursor>
                   <Cursor fx:constant="OPEN_HAND" />
                </cursor></ImageView>
@@ -31,14 +31,14 @@
             <Insets />
          </opaqueInsets>
       </Pane>
-      <Button fx:id="btnStart" layoutX="111.0" layoutY="406.0" mnemonicParsing="false" onAction="#OnBtnStart" prefHeight="43.0" prefWidth="80.0" text="Начать &#10;игру" textAlignment="CENTER" />
-      <Button layoutX="198.0" layoutY="406.0" mnemonicParsing="false" onAction="#OnBtnEnd" text="Закончить &#10;игру" textAlignment="CENTER" />
+      <Button fx:id="btnStart" layoutX="184.0" layoutY="407.0" mnemonicParsing="false" onAction="#OnBtnStart" prefHeight="43.0" prefWidth="80.0" text="Начать &#10;игру" textAlignment="CENTER" />
+      <Button layoutX="330.0" layoutY="407.0" mnemonicParsing="false" onAction="#OnBtnEnd" text="Закончить &#10;игру" textAlignment="CENTER" />
           <Label alignment="CENTER" contentDisplay="CENTER" layoutX="116.0" layoutY="283.0" prefHeight="42.0" prefWidth="68.0" text="Баланс&#10;Игрока" textAlignment="CENTER">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label fx:id="lblBalancePlayer" alignment="CENTER" contentDisplay="CENTER" layoutX="121.0" layoutY="334.0" prefHeight="23.0" prefWidth="60.0" text="0" textAlignment="CENTER" textFill="#0f0000" underline="true">
+      <Label fx:id="lblBalancePlayer" alignment="CENTER" contentDisplay="CENTER" layoutX="121.0" layoutY="346.0" prefHeight="23.0" prefWidth="60.0" text="0" textAlignment="CENTER" textFill="#0f0000" underline="true">
          <font>
             <Font name="Goudy Old Style" size="18.0" />
          </font>
@@ -46,12 +46,12 @@
             <Insets />
          </opaqueInsets>
       </Label>
-      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="194.0" layoutY="283.0" prefHeight="42.0" prefWidth="68.0" text="Баланс&#10;Автомата" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="407.0" layoutY="283.0" prefHeight="42.0" prefWidth="68.0" text="Баланс&#10;Автомата" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <Label fx:id="lblBalanceMachine" alignment="CENTER" contentDisplay="CENTER" layoutX="198.0" layoutY="340.0" prefHeight="23.0" prefWidth="60.0" text="0" textAlignment="CENTER" textFill="#0f0000" underline="true">
+      <Label fx:id="lblBalanceMachine" alignment="CENTER" contentDisplay="CENTER" layoutX="411.0" layoutY="346.0" prefHeight="23.0" prefWidth="60.0" text="0" textAlignment="CENTER" textFill="#0f0000" underline="true">
          <font>
             <Font name="Goudy Old Style" size="18.0" />
          </font>

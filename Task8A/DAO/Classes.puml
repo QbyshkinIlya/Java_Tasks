@@ -1,0 +1,79 @@
+@startuml
+class com.example.task8a.TaskDAOImpl {
+- Connection conn
++ List<Task> getAllTasks()
++ Task getTaskById(int)
++ void addTask(Task)
++ void updateTask(Task)
++ void deleteTask(int)
+}
+class com.example.task8a.HelloApplication {
++ void start(Stage)
++ {static} void main(String[])
+}
+interface com.example.task8a.TaskDAO {
+~ List<Task> getAllTasks()
+~ Task getTaskById(int)
+~ void addTask(Task)
+~ void updateTask(Task)
+~ void deleteTask(int)
+}
+class com.example.task8a.TaskFabrica {
++ {static} String H2
++ {static} String PG
+- TaskDAO FabDAO
++ TaskDAO getFabDAO(String)
+}
+class com.example.task8a.Task {
+- SimpleIntegerProperty id
+- SimpleStringProperty name
+- SimpleStringProperty time
+- SimpleStringProperty status
++ int getId()
++ SimpleIntegerProperty idProperty()
++ String getName()
++ SimpleStringProperty nameProperty()
++ String getTime()
++ SimpleStringProperty timeProperty()
++ String getStatus()
++ SimpleStringProperty statusProperty()
++ void setId(int)
++ void setName(String)
++ void setTime(String)
++ void setStatus(String)
+}
+class com.example.task8a.FileTaskDAO {
+- String fileName
++ List<Task> getAllTasks()
++ Task getTaskById(int)
++ void addTask(Task)
++ void updateTask(Task)
++ void deleteTask(int)
+- Task parseTaskFromLine(String)
+- String taskToString(Task)
+}
+class com.example.task8a.HelloController {
++ TextField name
++ TextField time
++ TextField context
++ TextField status
++ TextField choisDAO
++ RadioButton radioH
++ RadioButton radioPg
+~ TaskDAOImpl impl
+~ TaskFabrica taskFabrica
+~ TaskDAO taskDAO
++ TableView table
+- ObservableList<Task> fxlist
+- void createtable()
+# void onHelloButtonClick()
++ void initialize(URL,ResourceBundle)
++ void getBD(ActionEvent)
+}
+
+
+com.example.task8a.TaskDAO <|.. com.example.task8a.TaskDAOImpl
+javafx.application.Application <|-- com.example.task8a.HelloApplication
+com.example.task8a.TaskDAO <|.. com.example.task8a.FileTaskDAO
+javafx.fxml.Initializable <|.. com.example.task8a.HelloController
+@enduml

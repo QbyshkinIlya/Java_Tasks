@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="362.0" prefWidth="571.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task8a.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <AnchorPane prefHeight="454.0" prefWidth="576.0">
+      <children>
+         <TableView fx:id="table" layoutX="9.0" layoutY="33.0" prefHeight="238.0" prefWidth="349.0">
+           <columns>
+             <TableColumn prefWidth="75.0" text="C1" />
+             <TableColumn prefWidth="75.0" text="C2" />
+           </columns>
+         </TableView>
+         <TextField fx:id="name" layoutX="367.0" layoutY="33.0" prefHeight="26.0" prefWidth="150.0" promptText="name" />
+         <TextField fx:id="time" layoutX="368.0" layoutY="59.0" promptText="time" />
+         <TextField fx:id="status" layoutX="367.0" layoutY="84.0" prefHeight="26.0" prefWidth="150.0" promptText="status" />
+         <RadioButton fx:id="radioH" layoutX="14.0" layoutY="5.0" mnemonicParsing="false" onAction="#getBD" text="H2" />
+          <RadioButton fx:id="radioPg" layoutX="60.0" layoutY="5.0" mnemonicParsing="false" onAction="#getBD" text="File" />
+          <Button layoutX="406.0" layoutY="127.0" onAction="#onHelloButtonClick" text="Добавить!" />
+         <Button layoutX="413.0" layoutY="246.0" onAction="#drop" text="Удалить" />
+               </children>
+   </AnchorPane>
+</VBox>
