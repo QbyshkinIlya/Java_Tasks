@@ -1,9 +1,9 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №9
 Реализация программы: <br>
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/Decorator/IMG/star.png) 
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/Decorator/IMG/Presents.png) 
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/Decorator/IMG/Girlands.png) 
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/Decorator/IMG/All.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%209/Strategy/src/IMG/img.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%209/Strategy/src/IMG/img_1.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%209/Strategy/src/IMG/img_2.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%209/Strategy/src/IMG/img_3.png)
 ---
 В программе используется паттерн **Стратегия** (Strategy). 
 Этот паттерн позволяет определить семейство алгоритмов, инкапсулировать каждый из них и делать их взаимозаменяемыми.В данном случае, разные методы сортировки представляют собой разные стратегии, которые можно динамически выбирать и применять к массиву чисел без изменения кода контекста.
@@ -25,10 +25,7 @@
     - `public SortingStrategy getStrategy()`: Получает текущую стратегию сортировки.
     - `public void sortNumbers(int[] numbers)`: Применяет текущую стратегию сортировки к массиву чисел.
 
-5. **FXML файл `hello-view.fxml`**:
-    - Определяет пользовательский интерфейс с элементами управления, такими как текстовые поля, кнопки и переключатели.
-
-6. **Контроллер `HelloController`**:
+5. **Контроллер `HelloController`**:
     - Связывает элементы интерфейса с методами программы, определенными в Java-коде.
     - Методы:
         - `public void fillButtonClicked()`: Заполняет массив чисел на основе введенных данных.
