@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="215.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task_9.HelloController">
+        <children>
+            <Button layoutX="17.0" layoutY="20.0" mnemonicParsing="false" onAction="#generateRandomArray" prefHeight="31.0" prefWidth="148.0" text="Новый массив" />
+            <Button layoutX="462.0" layoutY="62.0" mnemonicParsing="false" onAction="#bubbleSortButtonClicked" prefHeight="25.0" prefWidth="132.0" text="Пузырьковая" />
+            <Label layoutX="412.0" layoutY="14.0" prefHeight="21.0" prefWidth="182.0" text="Выберите сортировку:" />
+            <Button layoutX="462.0" layoutY="117.0" mnemonicParsing="false" onAction="#selectionSortButtonClicked" prefHeight="25.0" prefWidth="132.0" text="Выбором" />
+
+            <TextField fx:id="inputField" alignment="CENTER" editable="false" layoutX="49.0" layoutY="62.0" prefHeight="25.0" prefWidth="386.0" />
+            <Label layoutX="193.0" layoutY="23.0" text="Исходный Массив:" />
+            <TextField fx:id="textField" alignment="CENTER" editable="false" layoutX="49.0" layoutY="166.0" prefHeight="25.0" prefWidth="386.0" />
+            <Label layoutX="153.0" layoutY="122.0" prefHeight="21.0" prefWidth="211.0" text="Отсортированный Массив:" />
+      <Label fx:id="resultLabel" layoutX="48.0" layoutY="97.0" prefHeight="21.0" prefWidth="386.0" />
+        </children>
+    </AnchorPane>
