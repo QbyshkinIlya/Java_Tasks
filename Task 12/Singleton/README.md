@@ -1,7 +1,7 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №12 SINGLETON
 Реализация программы: <br>
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2011/Mediator/IMG/img.png) 
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2011/Mediator/IMG/img_1.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2012/Singleton/src/main/java/IMG/img.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2012/Singleton/src/main/java/IMG/img_1.png)
 
 - ImageBuilder:
 - - Интерфейс, представляющий строителя изображения.
