@@ -1,5 +1,5 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №17
-![ОКНО]()
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2017/Product-Customer/src/IMG/img.png)
 
 Приложение с реализацией паттерна Производитель - Потребитель
 
