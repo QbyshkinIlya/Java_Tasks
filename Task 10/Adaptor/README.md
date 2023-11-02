@@ -1,8 +1,8 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №10
 Реализация программы: <br>
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/Decorator/IMG/star.png) 
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/Decorator/IMG/Presents.png) 
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%208/Decorator/IMG/Girlands.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2010/Adaptor/src/IMG/img.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2010/Adaptor/src/IMG/img_1.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2010/Adaptor/src/IMG/img_2.png)
 ---
 В программе используется паттерн **Адаптер** (Adaptor).
 Паттерн "Адаптер" используется для адаптации структуры данных `OrdArray` для работы с общими методами в пользовательском интерфейсе. 
