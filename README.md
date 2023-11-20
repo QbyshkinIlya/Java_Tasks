@@ -11,7 +11,7 @@
 8.[Декоратор](https://github.com/Je1rei/Java-Tasks/tree/main/Task%208/Decorator)<br>
 ---
 9.[Стратегия](https://github.com/Je1rei/Java-Tasks/tree/main/Task%209/Strategy)<br>
-10.[!!Адаптер]()<br>
+10.[Адаптер](https://github.com/Je1rei/Java-Tasks/tree/main/Task%2010/Adaptor)<br>
 11.[Посредник](https://github.com/Je1rei/Java-Tasks/tree/main/Task%2011/Mediator)<br>
 12.[Одиночка](https://github.com/Je1rei/Java-Tasks/tree/main/Task%2012/Singleton)<br>
 13.[!!Компоновщик]()<br>
