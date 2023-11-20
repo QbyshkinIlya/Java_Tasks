@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="470.0" prefWidth="615.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <children>
+        <Label fx:id="LabelGo">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <HBox fx:id="Chest" prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <ImageView fx:id="Ris1" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#OnMouseClickImg" pickOnBounds="true" preserveRatio="true">
+                    <HBox.margin>
+                        <Insets right="10.0" />
+                    </HBox.margin></ImageView>
+                <ImageView fx:id="Ris2" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#OnMouseClickImg" pickOnBounds="true" preserveRatio="true">
+                    <HBox.margin>
+                        <Insets right="10.0" />
+                    </HBox.margin></ImageView>
+                <ImageView fx:id="Ris3" fitHeight="150.0" fitWidth="200.0" onMouseClicked="#OnMouseClickImg" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </HBox>
+        <HBox prefHeight="104.0" prefWidth="622.0">
+            <children>
+                <AnchorPane prefHeight="128.0" prefWidth="600.0">
+                    <children>
+                        <Label fx:id="coin" layoutX="210.0" layoutY="14.0" prefHeight="26.0" prefWidth="90.0" text="Игрок">
+                            <font>
+                                <Font size="14.0" />
+                            </font></Label>
+                        <Label layoutX="397.0" layoutY="14.0" prefHeight="26.0" prefWidth="159.0" text="Автомат">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="moneyofPlayer" layoutX="225.0" layoutY="51.0" text="0">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="statusLabel" layoutX="242.0" layoutY="37.0" text="statusLabel" visible="false">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Label>
+                  <Label fx:id="moneyofAutomat" layoutX="418.0" layoutY="51.0" prefHeight="20.0" prefWidth="70.0" text="0">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                    </children>
+                </AnchorPane>
+            </children>
+        </HBox>
+        <HBox prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <AnchorPane prefHeight="95.0" prefWidth="472.0">
+                    <children>
+                        <Button layoutX="447.0" layoutY="35.0" mnemonicParsing="false" onAction="#onEnd" prefHeight="30.0" prefWidth="119.0" text="Окончить игру!">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                        <Button layoutX="165.0" layoutY="35.0" mnemonicParsing="false" onAction="#onGo" text="Поехали!">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                        <Button layoutX="260.0" layoutY="35.0" mnemonicParsing="false" onAction="#addMoney" text="Добавить монеты!">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </AnchorPane>
+            </children>
+        </HBox>
+    </children>
+
+
+</VBox>

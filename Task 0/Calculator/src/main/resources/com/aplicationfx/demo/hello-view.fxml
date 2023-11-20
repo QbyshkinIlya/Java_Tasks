@@ -6,14 +6,6 @@
 <?import javafx.scene.layout.*?>
 <?language javascript?>
 
-<!--
-    <Button fx:id = "mainButton" onAction="btnClicktestFXscript()"
-    ></Button>
-    <fx:script>
-        function btnClicktestFXscript(){ mainButton.setText("Click"); }
-    </fx:script>
--->
-
 <GridPane alignment="CENTER" hgap="5" prefHeight="240.0" prefWidth="240.0" styleClass="root" vgap="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aplicationfx.demo.HelloController">
 
     <padding>
@@ -44,18 +36,4 @@
          <Cursor fx:constant="HAND" />
       </cursor>
     </Button>
-   <columnConstraints>
-      <ColumnConstraints />
-      <ColumnConstraints />
-      <ColumnConstraints />
-      <ColumnConstraints />
-   </columnConstraints>
-   <rowConstraints>
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-      <RowConstraints />
-   </rowConstraints>
-
 </GridPane>

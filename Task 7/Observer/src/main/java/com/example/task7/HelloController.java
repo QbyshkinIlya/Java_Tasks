@@ -77,8 +77,4 @@ public class HelloController implements Initializable {
     public void onStopButtonClick(ActionEvent actionEvent) {
         timeline.stop();
     }
-
-
-
-
 }

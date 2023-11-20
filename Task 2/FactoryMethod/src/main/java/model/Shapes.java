@@ -21,8 +21,5 @@ public abstract class Shapes {
         this.shapeColor = shapeColor;
     }
 
-    public Color getShapeColor() {
-        return shapeColor;
-    }
 }
 

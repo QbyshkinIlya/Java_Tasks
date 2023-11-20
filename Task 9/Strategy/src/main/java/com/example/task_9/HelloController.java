@@ -26,23 +26,6 @@ public class HelloController {
 
     private int[] numbers; // Массив чисел, который нужно отсортировать
 
-
-    @FXML
-    public void fillButtonClicked() {
-        String input = inputField.getText();
-        String[] numberStrings = input.split(",");
-        numbers = new int[numberStrings.length];
-        for (int i = 0; i < numberStrings.length; i++) {
-            try {
-                numbers[i] = Integer.parseInt(numberStrings[i]);
-            } catch (NumberFormatException e) {
-                resultLabel.setText("Ошибка: введите числа через запятую");
-                return;
-            }
-        }
-        resultLabel.setText("Массив заполнен");
-    }
-
     public void generateRandomArray() {
         int size = 10; // Размер случайного массива (можете задать по вашему усмотрению)
         numbers = new int[size];
