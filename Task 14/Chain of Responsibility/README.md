@@ -1,8 +1,9 @@
 # ПРАКТИЧЕСКАЯ РАБОТА №14
 Реализация программы: <br>
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2014/Chain%20of%20Responsibility/IMG/img.png) 
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2014/Chain%20of%20Responsibility/IMG/img_1.png) 
-![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2014/Chain%20of%20Responsibility/IMG/img_2.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2014/Chain%20of%20Responsibility/src/img.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2014/Chain%20of%20Responsibility/src/img_1.png) 
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2014/Chain%20of%20Responsibility/src/img_2.png)
+![ОКНО](https://github.com/Je1rei/Java-Tasks/blob/main/Task%2014/Chain%20of%20Responsibility/src/img_3.png)
 
 **Описание**
 ---
