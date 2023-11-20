@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox prefHeight="401.0" prefWidth="437.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalkursovoy.HelloController">
+    <!-- Panel слева -->
+    <Pane prefHeight="365.0" prefWidth="270.0">
+      <children>
+          <VBox prefHeight="402.0" prefWidth="274.0" spacing="10">
+              <Label fx:id="startPointLabel" />
+              <Label fx:id="endPointLabel" />
+              <Label fx:id="distanceLabel" />
+              <Label fx:id="timeLabel" />
+              <Label fx:id="speedLabel" />
+              <Label fx:id="peopleLabel" />
+              <Label fx:id="fuelConsumptionLabel" />
+              <Label fx:id="fuelNeededLabel" />
+              <Label fx:id="fuelCostLabel" />
+              <Label fx:id="foodCostLabel" />
+              <Label fx:id="totalCostLabel" />
+          </VBox>
+      </children>
+    </Pane>
+
+    <!-- VBox справа -->
+    <VBox fx:id="rightBox" alignment="CENTER" prefHeight="401.0" prefWidth="198.0">
+      <Label text="Введите параметры " />
+        <TextField fx:id="city1Field" promptText="Первоначальный пункт*">
+            <VBox.margin>
+                <Insets top="20.0" />
+            </VBox.margin>
+        </TextField>
+        <TextField fx:id="city2Field" prefHeight="25.0" prefWidth="300.0" promptText="Конечный пункт*">
+            <VBox.margin>
+                <Insets top="20.0" />
+            </VBox.margin>
+        </TextField>
+      <TextField fx:id="avgSpeedField" layoutX="10.0" layoutY="111.0" promptText="Средняя скорость движения(км/ч)">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </TextField>
+      <TextField fx:id="fuelRateField" layoutX="10.0" layoutY="156.0" promptText="Расход топлива(л/100км) -8.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </TextField>
+      <TextField fx:id="countPeopleField" layoutX="10.0" layoutY="234.0" promptText="Количество человек">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </TextField>
+        <Button fx:id="calculateButton" onAction="#calculateDistance" prefHeight="45.0" prefWidth="128.0" text="Рассчитать маршрут" textAlignment="CENTER">
+            <VBox.margin>
+                <Insets top="20.0" />
+            </VBox.margin>
+        </Button>
+      <HBox.margin>
+         <Insets right="10.0" />
+      </HBox.margin>
+    </VBox>
+</HBox>
